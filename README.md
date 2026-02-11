@@ -37,4 +37,31 @@ classificação médica.
 - Seleção das variáveis mais correlacionadas
 - Padronização das features (StandardScaler)
 - Treinamento dos modelos de Regressão Logística
-- Avaliação com métricas de clas
+- Avaliação com métricas de classificação
+- Validação cruzada (Cross-Validation)
+- Análise de generalização (treino vs teste)
+
+## 📈 Resultados
+Os resultados indicaram desempenho elevado para ambos os modelos,
+com melhora observada ao utilizar o conjunto completo de features.
+
+A validação cruzada apresentou estabilidade entre os folds,
+indicando boa capacidade de generalização e ausência de overfitting relevante.
+
+## 🛠️ Tecnologias
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+
+## 📁 Estrutura do Repositório
+cancer-mama-classificacao/
+- CancerDeMama_Regressao_Logistica.ipynb
+- README.md
+
+## 📌 Observações
+Este projeto demonstra a aplicação estruturada de um modelo de classificação
+em um contexto médico, destacando a importância da seleção de variáveis
+e da validação adequada para garantir robustez e generalização.
